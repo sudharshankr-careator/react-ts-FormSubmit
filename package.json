@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@types/react": "^16.8.2",
-    "@types/react-dom": "^16.8.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "@types/react": "16.14.21",
+    "@types/react-dom": "16.9.14",
+    "axios": "^0.24.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-paginate": "8.1.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { render } from 'react-dom';
+import Pagination from './pagination';
 import './style.css';
 function App() {
   const [input, setInput] = useState<any>({
@@ -12,6 +13,7 @@ function App() {
   };
   return (
     <div>
+      <Pagination/>
       <h1>form</h1>
       <form action="" onSubmit={submit}>
         <div>
